@@ -25,7 +25,6 @@ foreach $codon (@codon){
 		$sum=$length+$sum;
 		}
 	}
-print "$num\t$sum\n";
 my $GC=300*$num/$sum;
 print "$head\tP3\t$GC\%\n";
 }
